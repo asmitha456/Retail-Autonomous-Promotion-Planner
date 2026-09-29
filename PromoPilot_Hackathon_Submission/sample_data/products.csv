@@ -1,0 +1,9 @@
+product_id,product,category,price,cost,inventory,base_daily_sales,discount_elasticity,min_margin_pct,segment
+P001,Smartphone A,Electronics,29999,22500,800,18,0.55,18,Young Professionals
+P002,Wireless Earbuds,Electronics,3999,2300,1800,45,0.80,20,Students
+P003,Running Shoes,Footwear,5999,3200,1200,28,0.65,22,Fitness
+P004,Winter Jacket,Apparel,7499,4100,650,12,0.90,20,Premium
+P005,Smart TV 43,Electronics,32999,25000,420,8,0.45,18,Family
+P006,Coffee Maker,Home,5499,3000,900,20,0.70,20,Urban
+P007,Backpack,Accessories,2499,1200,1600,40,0.75,25,Students
+P008,Air Fryer,Home,8999,5200,700,16,0.60,20,Family

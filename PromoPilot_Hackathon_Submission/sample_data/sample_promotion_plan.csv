@@ -1,0 +1,2 @@
+product_id,product,category,discount_pct,duration_days,audience,mechanism,expected_units,expected_revenue,expected_profit,inventory_cleared_pct,marketing_cost,score,confidence,rationale
+P003,Running Shoes,Footwear,15.0,7,All customers,Flash sale,387,1973371.05,725104.19,32.2,9866.86,894074.09,0.9,"['keeps discount within a controlled range', 'meets minimum margin constraint']"

@@ -1,0 +1,29 @@
+Welcome to PromoPilot, our autonomous promotion planner for retail.
+
+Retail promotions look simple, but every promotion is a constrained business decision. Teams need to increase sales and clear inventory while protecting margin, staying within a marketing budget, and targeting the right customers.
+
+PromoPilot turns this into an explainable agentic workflow.
+
+We start with structured retail inputs: inventory, selling price, product cost, base daily sales, discount elasticity, minimum margin, and customer segment. We also provide a business brief. In this demo, the brief is a Diwali festive campaign for India, with a priority on inventory clearance without damaging margin.
+
+The first stage is Sense. The planner validates the input data and extracts campaign context. It assigns a confidence level so the user can see how much of the plan is based on explicit information.
+
+Next is Reason. The planner generates candidate strategies across products, discount levels, campaign duration, customer audiences, and promotion mechanisms such as targeted coupons, bundles, and flash sales.
+
+Then comes the most important guardrail: Constrain. Candidates that violate the minimum margin requirement are removed. The planner also keeps total marketing spend within the approved budget.
+
+After that, the optimizer selects a campaign portfolio using expected profit and inventory clearance as decision signals.
+
+The result is not just a discount number. The user gets the product, discount percentage, duration, audience, mechanism, expected units, revenue, profit, inventory clearance, confidence, and rationale.
+
+Now we move to simulation. The user can change the demand multiplier to test downside and upside scenarios before launching the campaign. This makes the recommendation easier to challenge and safer to operationalize.
+
+Finally, the promotion plan can be downloaded as a CSV and passed to the next business workflow.
+
+What makes PromoPilot different is that it is not a chatbot giving an opaque suggestion. It is a decision engine with explicit stages, hard constraints, an auditable decision trace, and what-if simulation.
+
+The prototype is intentionally modular. In production, the same architecture can connect live ERP inventory, competitor pricing, geographic data, machine-learning demand and uplift models, policy documents, approval workflows, and a closed-loop learning system based on actual campaign outcomes.
+
+The core idea is simple: Sense the business context, reason over alternatives, enforce constraints, simulate outcomes, and recommend an auditable promotion plan.
+
+That is PromoPilot.
